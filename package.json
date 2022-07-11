@@ -1,0 +1,22 @@
+{
+  "name": "tour_travel",
+  "version": "1.0.0",
+  "description": "It is about website of tour and travel with ticket booking",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanur350/Tour_Travel.git"
+  },
+  "author": "neerajkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanur350/Tour_Travel/issues"
+  },
+  "homepage": "https://github.com/dhanur350/Tour_Travel#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

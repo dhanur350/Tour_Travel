@@ -84,3 +84,21 @@ var swiper = new Swiper(".brand-slider", {
         },
       },
 });
+function validate(e)
+{
+    var username=document.getElementById("username").value;
+    var password=document.getElementById("password").value;
+    /*var username=document.forms["Online"]["username"].value;
+    var username=document.forms["Online"]["password"].value;
+    */
+    if (username=="neeraj@gmail.com"&&password=="neeraj") 
+    {
+        alert("Login Successful complete");
+        window.location.href('http://localhost:8080')
+    } 
+    else 
+    {
+        alert("Incorrect Creditionals");
+    }
+    e.preventDeafult();
+}

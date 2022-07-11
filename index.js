@@ -10,7 +10,7 @@ app.get("/", function (request, response) {
 let db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "turbo",
+  password: "neeraj",
   database: "MySQL",
 });
 

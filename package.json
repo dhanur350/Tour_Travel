@@ -2,7 +2,7 @@
   "name": "tour_travel",
   "version": "1.0.0",
   "description": "It is about website of tour and travel with ticket booking",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dhanur350/Tour_Travel#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "mysql": "^2.18.1"
   }
 }
